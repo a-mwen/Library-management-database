@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Library Management System</h1>
+            <nav>
+                <button onclick="loadBooks()">Books</button>
+                <button onclick="loadUsers()">Users</button>
+                <button onclick="loadLoans()">Loans</button>
+            </nav>
+        </header>
+        <section id="data-section">
+            <div id="loader">Loading data...</div>
+            <div id="data"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
