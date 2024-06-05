@@ -1,3 +1,9 @@
-/library-system/node_modules
-/library-frontend/node_modules
+# Node modules
+/library-system/node_modules/
+/library-frontend/node_modules/
+
+# Environment variables
+/library-system/.env
+
+# Other
 .DS_Store
