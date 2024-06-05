@@ -29,13 +29,13 @@ async function fetchData(url) {
 }
 
 function loadBooks() {
-    fetchData('https://a-mwen.github.io/Library-management-database/books'); // Update URL if deployed
+    fetchData('https://library-management-system-0itd.onrender.com/books');
 }
 
 function loadUsers() {
-    fetchData('https://a-mwen.github.io/Library-management-database/users'); // Update URL if deployed
+    fetchData('https://library-management-system-0itd.onrender.com/users');
 }
 
 function loadLoans() {
-    fetchData('https://a-mwen.github.io/Library-management-database/loans'); // Update URL if deployed
+    fetchData('https://library-management-system-0itd.onrender.com/loans');
 }
