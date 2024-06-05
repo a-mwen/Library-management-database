@@ -29,13 +29,13 @@ async function fetchData(url) {
 }
 
 function loadBooks() {
-    fetchData('http://localhost:8081/books'); // Update URL if deployed
+    fetchData('https://a-mwen.github.io/Library-management-database/books'); // Update URL if deployed
 }
 
 function loadUsers() {
-    fetchData('http://localhost:8081/users'); // Update URL if deployed
+    fetchData('https://a-mwen.github.io/Library-management-database/users'); // Update URL if deployed
 }
 
 function loadLoans() {
-    fetchData('http://localhost:8081/loans'); // Update URL if deployed
+    fetchData('https://a-mwen.github.io/Library-management-database/loans'); // Update URL if deployed
 }
