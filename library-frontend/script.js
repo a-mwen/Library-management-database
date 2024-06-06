@@ -29,13 +29,12 @@ async function fetchData(url) {
 }
 
 function loadBooks() {
-    fetchData('http://localhost:8081/books'); // Update URL if deployed
+    fetchData('https://library-management-system-0itd.onrender.com/books');
 }
 
 function loadUsers() {
-    fetchData('http://localhost:8081/users'); // Update URL if deployed
+    fetchData('https://library-management-system-0itd.onrender.com/users');
 }
 
 function loadLoans() {
-    fetchData('http://localhost:8081/loans'); // Update URL if deployed
-}
+    fetchData('https://library-management-system-0itd.onrender.com/loans');
